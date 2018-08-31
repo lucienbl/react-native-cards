@@ -87,8 +87,10 @@ const styles = StyleSheet.create({
     fontSize: 24,
   },
   subtitleText: {
-    fontSize: 14,
-    color: 'rgba(0 ,0 ,0 , 0.38)',
+    marginTop: -15,
+    marginLeft: 5,
+    fontSize: 12,
+    color: 'rgba(10 ,10 ,10 , 0.30)',
   },
   avatarStyle: {
     width: 40,
