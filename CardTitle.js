@@ -19,13 +19,10 @@ export default class CardTitle extends Component {
         titleStyle = [...titleStyle, { marginBottom: 12 }];
       }
     }
-    if (this.props.isDark) {
-      subtitleStyle = [...subtitleStyle, styles.lightText];
-      titleStyle = [...titleStyle, styles.lightText];
-    }
-    else {
-      titleStyle = [...titleStyle, styles.darkText];
-    }
+    
+    subtitleStyle = [...subtitleStyle, styles.lightText];
+    titleStyle = [...titleStyle, styles.lightText];
+ 
     if (this.props.subtitleAbove !== true) {
       return (
         <View style={[styles.cardTitle, newStyle]}>
